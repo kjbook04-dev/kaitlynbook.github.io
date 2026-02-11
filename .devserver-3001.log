@@ -1,0 +1,19 @@
+
+> personal-website@1.0.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 1191ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1220ms (584 modules)
+ HEAD / 200 in 1303ms
+ GET / 200 in 32ms
+ ✓ Compiled /contact in 155ms (570 modules)
+ ✓ Compiled in 83ms (570 modules)
+ ✓ Compiled in 128ms (528 modules)
+ ✓ Compiled in 75ms (528 modules)
+ ✓ Compiled / in 97ms (294 modules)
+ ✓ Compiled /portfolio in 73ms (558 modules)

@@ -3,10 +3,10 @@ export const siteContent = {
   personal: {
     name: "Kaitlyn Book",
     title: "Product Designer & Systems Thinker",
-    tagline: "Designing calm, high-converting digital experiences with a focus on clarity and care.",
-    location: "Boston, MA",
+    tagline: "Designing scalable operations, executive workflows, and digital systems that bring clarity, efficiency, and measurable business impact.",
+    location: "Denver, CO",
     bio: [
-      "I design digital products that feel effortless to use and intentional to scale. My work blends strategy, research, and polished UI to build experiences that are both human and high-performing.",
+      "I specialize in executive operations, process optimization, and cross-functional coordination, building structured systems, workflows, and tools that improve efficiency, support leadership teams, and scale organizational growth.",
       "Over the past several years I’ve partnered with founders, product teams, and creative agencies to ship thoughtful platforms, crisp marketing sites, and scalable design systems. I value clear communication, measurable outcomes, and calm execution.",
       "When I’m not designing, I’m refining my workflows, mentoring emerging creatives, and collecting inspiration from architecture, editorial design, and modern hospitality brands."
     ],
@@ -32,8 +32,8 @@ export const siteContent = {
   },
   // REPLACE THIS WITH YOUR INFO
   social: {
-    email: "hello@yourdomain.com",
-    linkedin: "https://www.linkedin.com/in/yourprofile"
+    email: "kjbook04@gmail.com",
+    linkedin: "https://linkedin.com/in/kaitlyn-book"
   },
   // REPLACE THIS WITH YOUR INFO
   photos: {
@@ -47,33 +47,85 @@ export const siteContent = {
   // REPLACE THIS WITH YOUR INFO
   experience: [
     {
-      role: "Lead Product Designer",
-      company: "Aurora Labs",
-      dates: "2022 — Present",
+      role: "Executive Assistant & Operations Support",
+      company: "Ringy",
+      dates: "Jul 2025 - Present",
       bullets: [
-        "Owned end-to-end design for a B2B platform serving 30K+ active users.",
-        "Introduced a modular design system that reduced UI delivery time by 35%.",
-        "Partnered with product and engineering to align roadmap priorities with customer research."
+        "Supported executive leadership while driving cross-functional operational initiatives across business, technical, and administrative teams",
+        "Designed and implemented internal process improvements including onboarding documentation, asset tracking systems, and workflow organization that improved operational efficiency and visibility",
+        "Built internal dashboards and reporting tools improving alignment between engineering teams and leadership",
+        "Coordinated recruiting and onboarding operations including candidate screening, interview coordination, and employment documentation",
+        "Assisted financial and accounting workflows by preparing dispute documentation, organizing QuickBooks records, and tracking operational expenses",
+        "Led employer brand and reputation initiatives including Glassdoor profile optimization and customer review outreach programs",
+        "Conducted user data analysis and product issue investigations using MySQL queries and logging tools to support troubleshooting and product improvement",
+        "Utilized AI workflow tools to streamline contract preparation, documentation processes, and internal communication workflows",
+        "Supported executive strategy and planning by conducting research, coordinating travel logistics, and managing cross-department projects",
+        "Developed and maintained standard operating procedures (SOPs) improving onboarding consistency and team knowledge accessibility",
+        "Supported employee engagement and internal culture initiatives including recognition programs and internal communication coordination"
       ]
     },
     {
-      role: "Senior UX Designer",
-      company: "Sonder & Co.",
-      dates: "2019 — 2022",
+      role: "Spa Associate",
+      company: "5 Star Salt Caves Inc",
+      dates: "Oct 2024 - Jun 2025",
       bullets: [
-        "Led redesign of the marketing site, lifting qualified lead conversions by 28%.",
-        "Built a research synthesis workflow that informed three product launches.",
-        "Collaborated with brand and content teams to unify voice and UI patterns."
+        "Delivered high-quality client support while maintaining efficient daily service operations and appointment flow",
+        "Managed scheduling and booking coordination to improve operational efficiency and customer satisfaction",
+        "Resolved client concerns through proactive communication and service recovery strategies",
+        "Assisted with service preparation, supply coordination, and daily workflow organization",
+        "Maintained documentation and service readiness to support team consistency"
       ]
     },
     {
-      role: "UX/UI Designer",
-      company: "Studio Wildflower",
-      dates: "2017 — 2019",
+      role: "Administrative Coordinator",
+      company: "Holy Cross Lutheran Church and School",
+      dates: "Oct 2023 - Aug 2024",
       bullets: [
-        "Designed boutique e-commerce experiences for lifestyle brands.",
-        "Created high-fidelity prototypes for client stakeholder alignment.",
-        "Delivered responsive design libraries for consistent handoff."
+        "Coordinated monthly staff scheduling and availability planning to ensure reliable coverage for programs and events",
+        "Verified and approved employee timecards while maintaining accurate staffing documentation",
+        "Conducted staff performance evaluations and provided feedback, training, and operational guidance to improve team consistency",
+        "Supported hiring, interviewing, onboarding, and training of nursery staff while reinforcing childcare policies and safety procedures",
+        "Managed inventory of childcare and program supplies, ensuring materials were consistently available for daily activities",
+        "Collaborated with childcare teams to support safe, structured, and engaging environments that contributed to increased enrollment and parent satisfaction",
+        "Maintained organized and compliant nursery environments by reinforcing cleaning, safety, and operational procedures"
+      ]
+    },
+    {
+      role: "Elementary Program Lead",
+      company: "Holy Cross Lutheran Church and School",
+      dates: "Jan 2022 - May 2024",
+      bullets: [
+        "Led elementary youth program operations including scheduling, daily activities, and structured instruction",
+        "Implemented behavior management and engagement strategies that improved participation and learning consistency",
+        "Managed communication between families, participants, and leadership teams with ongoing updates and scheduling coordination",
+        "Designed and facilitated inclusive educational and enrichment activities supporting engagement and program growth",
+        "Ensured program safety and compliance by supervising activities and addressing participant needs in real time",
+        "Built strong relationships with students, families, and staff through mentorship, communication, and program leadership",
+        "Developed written program service plans and activity coordination documentation to support structured program delivery"
+      ]
+    },
+    {
+      role: "Assistant Preschool Teacher",
+      company: "Holy Cross Lutheran Church and School",
+      dates: "Jan 2022 - May 2024",
+      bullets: [
+        "Supervised and supported children during classroom instruction and structured group activities",
+        "Assisted lead teachers in developing age-appropriate learning plans and curriculum support",
+        "Supported social, emotional, and developmental growth through structured play and learning engagement",
+        "Maintained classroom organization, sanitation procedures, and educational material preparation",
+        "Coordinated lesson preparation and classroom setup to support efficient learning delivery"
+      ]
+    },
+    {
+      role: "Nursery Worker",
+      company: "Holy Cross Lutheran Church and School",
+      dates: "Oct 2019 - Aug 2024",
+      bullets: [
+        "Built strong relationships with families through consistent communication on child development and program participation",
+        "Supervised children during nursery programs while maintaining strict safety, hygiene, and health protocol compliance",
+        "Supported developmental learning through structured play, reading activities, and engagement-based supervision",
+        "Provided first aid and emergency response support while maintaining safety documentation",
+        "Maintained organized, clean, and welcoming childcare environments"
       ]
     }
   ],

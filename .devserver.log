@@ -1,0 +1,1422 @@
+
+> personal-website@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1143ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.8s (584 modules)
+ GET / 200 in 2881ms
+ GET / 200 in 30ms
+ GET / 200 in 27ms
+ GET / 200 in 24ms
+ GET / 200 in 26ms
+ GET / 200 in 24ms
+ GET / 200 in 28ms
+ ✓ Compiled /about in 160ms (570 modules)
+ ✓ Compiled /portfolio in 75ms (558 modules)
+ ✓ Compiled /blog in 85ms (560 modules)
+ ✓ Compiled /resources in 79ms (564 modules)
+ ✓ Compiled /contact in 84ms (566 modules)
+ ✓ Compiled /experience in 130ms (568 modules)
+ ✓ Compiled in 233ms (578 modules)
+ GET /experience 200 in 63ms
+ ✓ Compiled /blog in 49ms (303 modules)
+ ✓ Compiled (305 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js:1:4152
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js:1:4201)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/resources'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js:1:4107
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js:1:4160)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/about'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/contact/page.js:1:4148
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/contact/page.js:1:4197)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/contact'
+}
+ ✓ Compiled /_error in 407ms (795 modules)
+ ✓ Compiled in 203ms (803 modules)
+ ✓ Compiled in 94ms (803 modules)
+ GET /experience 200 in 43ms
+ ✓ Compiled /blog in 43ms (343 modules)
+ ✓ Compiled (345 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js:1:4107
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js:1:4160)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/about'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js:1:4152
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/resources/page.js:1:4201)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/resources'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/page.js:1:11090
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/page.js:1:11143)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/contact/page.js:1:4148
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/contact/page.js:1:4197)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/about/page.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/contact'
+}
+ ✓ Compiled /_error in 83ms (795 modules)
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/Users/kaitlynbook/kaitlynbook.github.io/.next/cache/webpack/client-development-fallback/0.pack.gz'
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3472
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3521)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/experience'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /experience 500 in 10ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3472
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3521)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/experience'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /experience 500 in 5ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3472
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3521)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/experience'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /experience 500 in 6ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3472
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3521)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/experience'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /experience 500 in 8ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3472
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/app/experience/page.js:1:3521)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:84
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36)
+    at async DevServer.findPageComponents (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/base-server.js:818:17)
+    at async /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/experience'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js
+- /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js
+- /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:198:28)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js:162:22)
+    at /Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:335
+    at Object.<anonymous> (/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js:109:84)
+    at /Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/webpack-runtime.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/.next/server/pages/_document.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/require.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/load-components.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/build/utils.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/kaitlynbook/kaitlynbook.github.io/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /experience 500 in 11ms
+ ✓ Compiled in 305ms (463 modules)
+ ✓ Compiled in 386ms (800 modules)
+ ✓ Compiled in 99ms (814 modules)
+ ✓ Compiled in 103ms (814 modules)
+[?25h

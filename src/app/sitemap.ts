@@ -1,7 +1,7 @@
 import { siteContent } from "@/content/siteContent";
 
 export default function sitemap() {
-  const baseUrl = "https://example.com"; // REPLACE WITH YOUR DOMAIN
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kjbook04-dev.github.io";
 
   const staticRoutes = [
     "",

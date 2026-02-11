@@ -1,0 +1,14 @@
+{
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/experience/page": "app/experience/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/portfolio/[slug]/page": "app/portfolio/[slug]/page.js",
+  "/resources/page": "app/resources/page.js"
+}

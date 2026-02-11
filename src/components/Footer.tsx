@@ -5,23 +5,31 @@ export function Footer() {
   return (
     <footer className="border-t border-border/70 bg-card/80">
       <Container className="py-10">
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <div>
-            <p className="text-lg font-heading text-foreground">Let’s connect</p>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Email me at {siteContent.social.email} or connect on LinkedIn.
-            </p>
-          </div>
-          <div className="flex flex-wrap items-center gap-4">
-            <a href={`mailto:${siteContent.social.email}`} className="button-primary">Email</a>
-            <a href={siteContent.social.linkedin} className="button-secondary" target="_blank" rel="noreferrer">
+        <div className="space-y-2 text-center">
+          <p className="text-lg font-heading text-foreground">Let’s connect</p>
+          <p className="text-sm text-muted-foreground">
+            Email me at{" "}
+            <a
+              href={`mailto:${siteContent.social.email}`}
+              className="font-semibold text-primary transition-colors hover:text-foreground"
+            >
+              {siteContent.social.email}
+            </a>{" "}
+            or connect on{" "}
+            <a
+              href={siteContent.social.linkedin}
+              className="font-semibold text-primary transition-colors hover:text-foreground"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
-          </div>
+            .
+          </p>
         </div>
-        <div className="mt-8 flex flex-col gap-2 text-xs text-muted-foreground">
+        <div className="mt-8 flex flex-col gap-2 text-center text-xs text-muted-foreground">
           <span>{siteContent.personal.name} · {new Date().getFullYear()}</span>
-          <span>Designed with calm intention and a focus on clarity.</span>
+          <span>Built with strategy, clarity, and operational excellence in mind.</span>
         </div>
       </Container>
     </footer>

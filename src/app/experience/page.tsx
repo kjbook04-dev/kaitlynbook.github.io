@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { ExpandableResponsibilities } from "@/components/ExpandableResponsibilities";
 import { Section } from "@/components/Section";
 import { siteContent } from "@/content/siteContent";
 
@@ -32,11 +33,7 @@ export default function ExperiencePage() {
                     </div>
                     <span className="text-sm font-semibold text-primary">{role.dates}</span>
                   </div>
-                  <ul className="mt-4 list-disc space-y-2 pl-6 text-sm text-muted-foreground">
-                    {role.bullets.map((bullet) => (
-                      <li key={bullet}>{bullet}</li>
-                    ))}
-                  </ul>
+                  <ExpandableResponsibilities bullets={role.bullets} />
                 </div>
               </div>
             ))}

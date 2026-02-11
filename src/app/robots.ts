@@ -1,9 +1,11 @@
 export default function robots() {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://kjbook04-dev.github.io";
+
   return {
     rules: {
       userAgent: "*",
       allow: "/"
     },
-    sitemap: "https://example.com/sitemap.xml" // REPLACE WITH YOUR DOMAIN
+    sitemap: `${baseUrl}/sitemap.xml`
   };
 }

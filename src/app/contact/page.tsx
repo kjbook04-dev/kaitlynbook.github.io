@@ -20,11 +20,16 @@ export default function ContactPage() {
               Let’s build something thoughtful
             </h1>
             <p className="text-sm text-muted-foreground">
-              Share a bit about your project or collaboration. I’ll reply within 1–2 business days.
+              Open to full-time roles, strategic collaborations, and intentional conversations. I typically respond within 1–2 business days.
             </p>
             <div className="card p-6">
               <p className="text-sm text-muted-foreground">Email</p>
-              <p className="text-lg font-semibold text-foreground">{siteContent.social.email}</p>
+              <a
+                href={`mailto:${siteContent.social.email}`}
+                className="text-lg font-semibold text-foreground hover:text-primary"
+              >
+                {siteContent.social.email}
+              </a>
               <p className="mt-3 text-sm text-muted-foreground">LinkedIn</p>
               <a
                 href={siteContent.social.linkedin}
@@ -37,7 +42,12 @@ export default function ContactPage() {
             </div>
           </div>
           <div className="card p-8">
-            <form className="space-y-4">
+            <form
+              className="space-y-4"
+              action={`mailto:${siteContent.social.email}`}
+              method="post"
+              encType="text/plain"
+            >
               <div>
                 <label className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                   Name
@@ -66,17 +76,14 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   name="message"
-                  placeholder="Tell me about your project..."
+                  placeholder="Start the conversation..."
                   rows={5}
                   className="mt-2 w-full rounded-2xl border border-border/80 bg-background px-4 py-3 text-sm"
                 />
               </div>
               <button type="submit" className="button-primary w-full">
-                Send message (placeholder)
+                Send message
               </button>
-              <p className="text-xs text-muted-foreground">
-                Form submissions are not wired yet. See the README for Formspree or Resend setup.
-              </p>
             </form>
           </div>
         </div>
