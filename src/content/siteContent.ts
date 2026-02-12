@@ -215,69 +215,118 @@ export const siteContent = {
   // REPLACE THIS WITH YOUR INFO
   resources: [
     {
-      category: "Career & Professional Growth",
-      description: "Templates and guidance for intentional career growth.",
+      category: "Templates & Systems",
+      description: "Downloadable workflows & planning templates.",
       items: [
         {
-          title: "Portfolio Refresh Checklist",
-          description: "A concise checklist for updating your portfolio with clarity.",
+          title: "Operational SOP Framework",
+          description: "A reusable framework for documenting workflows, responsibilities, and operational standards.",
           link: "",
-          tag: "career"
+          tag: "template"
         },
         {
-          title: "Client Kickoff Notes",
-          description: "A framework for aligning expectations early.",
+          title: "Executive Onboarding Organizer",
+          description: "A planning template for tracking onboarding tasks, documentation, and training progress.",
           link: "",
-          tag: "career"
+          tag: "template"
+        },
+        {
+          title: "Executive Weekly Planning System",
+          description: "A structured weekly workflow for managing priorities, meetings, and follow-ups.",
+          link: "",
+          tag: "template"
+        },
+        {
+          title: "Task & Project Visibility Dashboard",
+          description: "A lightweight tracker for monitoring projects, ownership, and progress visibility.",
+          link: "",
+          tag: "template"
         }
       ]
     },
     {
-      category: "Systems & Organization",
-      description: "Workflows and systems that keep creative projects calm.",
+      category: "Digital Products",
+      description: "Long-form structured guides & premium resources.",
       items: [
         {
-          title: "Weekly Planning Ritual",
-          description: "A lightweight system for staying focused.",
+          title: "The Quiet Reset Guide",
+          description: "A long-form guide designed to help young high-potential professionals build clarity, motivation, and intentional direction.",
           link: "",
-          tag: "systems"
+          tag: "guide"
+        },
+        {
+          title: "Executive Notion Planning System",
+          description: "A structured workspace for managing priorities, projects, routines, and long-term planning in one organized system.",
+          link: "",
+          tag: "system"
         }
       ]
     },
     {
-      category: "Tools I Use",
-      description: "Apps and tools that support my daily workflow.",
+      category: "Reading & Workflow Stack",
+      description: "Books, tools, & resources that shape how I work & think.",
       items: [
-        {
-          title: "Figma",
-          description: "Design and prototyping.",
-          link: "https://www.figma.com",
-          tag: "tools"
-        },
         {
           title: "Notion",
-          description: "Planning, documentation, and content systems.",
+          description: "Planning, documentation, and knowledge systems.",
           link: "https://www.notion.so",
-          tag: "tools"
-        }
-      ]
-    },
-    {
-      category: "Learning Vault",
-      description: "Books, courses, and essays worth revisiting.",
-      items: [
+          tag: "tool"
+        },
         {
-          title: "The Business of Design (book list)",
-          description: "Curated reading for creative leadership.",
-          link: "",
-          tag: "learning"
+          title: "Microsoft 365",
+          description: "Data analysis, reporting, and presentation systems.",
+          link: "https://www.microsoft.com/microsoft-365",
+          tag: "tool"
+        },
+        {
+          title: "Google Workspace",
+          description: "Documentation, tracking, and collaboration systems.",
+          link: "https://workspace.google.com",
+          tag: "tool"
+        },
+        {
+          title: "Jira (Atlassian)",
+          description: "Project tracking and workflows.",
+          link: "https://www.atlassian.com/software/jira",
+          tag: "tool"
+        },
+        {
+          title: "Airtable",
+          description: "Operational databases and dashboard tracking.",
+          link: "https://www.airtable.com",
+          tag: "tool"
+        },
+        {
+          title: "Motion",
+          description: "AI scheduling and task automation.",
+          link: "https://www.usemotion.com",
+          tag: "tool"
+        },
+        {
+          title: "GitHub",
+          description: "Version control and code management.",
+          link: "https://github.com",
+          tag: "tool"
+        },
+        {
+          title: "Visual Studio Code",
+          description: "Coding editor for system development and templates.",
+          link: "https://code.visualstudio.com",
+          tag: "tool"
+        },
+        {
+          title: "Vercel",
+          description: "Deployment and hosting for web projects.",
+          link: "https://vercel.com",
+          tag: "tool"
+        },
+        {
+          title: "Codex & Chat (AI Tools)",
+          description: "Code generation and workflow automation assistance.",
+          link: "https://openai.com/codex",
+          tag: "tool"
         }
       ]
-    },
-    {
-      category: "Free Downloads",
-      description: "Freebies and templates (coming soon).",
-      items: []
     }
   ],
   hubCards: [

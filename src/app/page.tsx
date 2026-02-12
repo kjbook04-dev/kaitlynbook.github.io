@@ -169,13 +169,9 @@ export default function HomePage() {
                   <h3 className="text-lg font-semibold text-foreground">{resource.category}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">{resource.description}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
-                    {resource.items.length === 0 ? (
-                      <Tag>Coming soon</Tag>
-                    ) : (
-                      resource.items.slice(0, 2).map((item) => (
-                        <Tag key={item.title}>{item.title}</Tag>
-                      ))
-                    )}
+                    {resource.items.slice(0, 2).map((item) => (
+                      <Tag key={item.title}>{item.title}</Tag>
+                    ))}
                   </div>
                 </div>
               ))}
