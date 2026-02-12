@@ -18,11 +18,10 @@ export default function ResourcesPage() {
               Resources
             </p>
             <h1 className="text-4xl font-heading text-foreground md:text-5xl">
-              A curated library for thoughtful professionals
+              A resource library for organized, growth-focused professionals
             </h1>
             <p className="mt-3 text-sm text-muted-foreground">
-              Explore templates, tools, and learning materials that support clarity, growth,
-              and calm execution.
+              Explore templates, workflows, and tools that support organization, efficiency, and clear execution.
             </p>
           </div>
         </Container>

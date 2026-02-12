@@ -6,29 +6,30 @@ export const siteContent = {
     tagline: "Designing scalable operations, executive workflows, and digital systems that bring clarity, efficiency, and measurable business impact.",
     location: "Denver, CO",
     bio: [
-      "I specialize in executive operations, process optimization, and cross-functional coordination, building structured systems, workflows, and tools that improve efficiency, support leadership teams, and scale organizational growth.",
-      "Over the past several years I’ve partnered with founders, product teams, and creative agencies to ship thoughtful platforms, crisp marketing sites, and scalable design systems. I value clear communication, measurable outcomes, and calm execution.",
-      "When I’m not designing, I’m refining my workflows, mentoring emerging creatives, and collecting inspiration from architecture, editorial design, and modern hospitality brands."
+      "Kaitlyn is based in Colorado and works as an Executive Assistant and Operations Support professional. She has always been drawn to how businesses operate behind the scenes - from organization and scheduling to systems that help teams work more efficiently.",
+      "She started college early through Pikes Peak State College, graduating high school with an Associate degree in Business, and later earned her Bachelor of Science in Business Administration and Management from Western Governors University at age 20.",
+      "Kaitlyn currently supports executive leadership by helping teams stay organized, improving workflows, and coordinating projects across departments. She enjoys learning new tools, exploring automation and AI, and finding practical ways technology can simplify everyday business processes.",
+      "Outside of work, Kaitlyn enjoys puzzles, painting, visiting museums, exploring nature, and sightseeing wherever she travels. She values personal growth, strong relationships, and building a career that blends structure, creativity, and continuous learning."
     ],
     values: [
       {
-        title: "Systems Thinker",
-        description: "I connect dots across brand, product, and operations to create cohesive experiences."
-      },
-      {
         title: "Clear Communication",
-        description: "I translate complex ideas into simple, confident decisions and documentation."
+        description: "I translate complex information into organized documentation, clear updates, and actionable next steps for leadership and teams."
       },
       {
         title: "Calm Execution",
-        description: "I lead with steadiness, protecting scope and momentum under pressure."
+        description: "I manage priorities with steadiness and organization, helping teams stay focused, prepared, and moving forward under pressure."
       },
       {
         title: "Detail-Driven",
-        description: "I sweat the micro details that build trust and premium feel."
+        description: "I maintain accuracy across scheduling, documentation, and project coordination, ensuring small details support larger business goals."
+      },
+      {
+        title: "Systems Thinker",
+        description: "I design structured workflows, documentation, and operational systems that improve clarity, efficiency, and team alignment."
       }
     ],
-    now: "Currently shaping a personal brand hub, refining my portfolio, and building a resource library for thoughtful professionals."
+    now: "Currently building productivity and workflow templates, refining operational dashboards, and continuing to explore tools that improve organization and team efficiency."
   },
   // REPLACE THIS WITH YOUR INFO
   social: {

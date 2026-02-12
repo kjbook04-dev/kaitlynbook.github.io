@@ -20,7 +20,7 @@ export default function AboutPage() {
               About
             </p>
             <h1 className="text-4xl font-heading text-foreground md:text-5xl">
-              A calm approach to systems, storytelling, and design.
+              A calm, structured approach to operations, systems, and business support.
             </h1>
             <div className="space-y-4 text-sm text-muted-foreground">
               {siteContent.personal.bio.map((paragraph) => (

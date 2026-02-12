@@ -6,14 +6,33 @@
   - Local:        http://localhost:3001
 
  ✓ Starting...
- ✓ Ready in 1191ms
- ○ Compiling / ...
- ✓ Compiled / in 1220ms (584 modules)
- HEAD / 200 in 1303ms
- GET / 200 in 32ms
- ✓ Compiled /contact in 155ms (570 modules)
- ✓ Compiled in 83ms (570 modules)
- ✓ Compiled in 128ms (528 modules)
- ✓ Compiled in 75ms (528 modules)
- ✓ Compiled / in 97ms (294 modules)
- ✓ Compiled /portfolio in 73ms (558 modules)
+ ✓ Ready in 1175ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 1412ms (572 modules)
+ GET /about 200 in 1500ms
+ HEAD /about 200 in 12ms
+ GET /about 200 in 18ms
+ GET /about 200 in 17ms
+ GET /about 200 in 18ms
+ GET /about 200 in 20ms
+ GET /about 200 in 17ms
+ GET /about 200 in 16ms
+ ✓ Compiled in 139ms (554 modules)
+ GET /about 200 in 41ms
+ ✓ Compiled in 128ms (554 modules)
+ ✓ Compiled /resources in 108ms (544 modules)
+ ✓ Compiled /portfolio in 64ms (546 modules)
+ ✓ Compiled in 101ms (560 modules)
+ ✓ Compiled in 98ms (558 modules)
+ ✓ Compiled in 87ms (558 modules)
+ ✓ Compiled in 121ms (558 modules)
+ ✓ Compiled / in 215ms (560 modules)
+ ✓ Compiled in 132ms (574 modules)
+ ✓ Compiled in 131ms (574 modules)
+ ✓ Compiled /blog in 65ms (562 modules)
+ ✓ Compiled /blog/[slug] in 82ms (569 modules)
+ ✓ Compiled in 140ms (583 modules)
+ ✓ Compiled in 135ms (583 modules)
+ GET /resources 200 in 45ms
+ GET /about 200 in 21ms
+ GET /about 200 in 20ms
