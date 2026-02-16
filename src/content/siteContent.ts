@@ -29,7 +29,7 @@ export const siteContent = {
         description: "I design structured workflows, documentation, and operational systems that improve clarity, efficiency, and team alignment."
       }
     ],
-    now: "Currently building productivity and workflow templates, refining operational dashboards, and continuing to explore tools that improve organization and team efficiency."
+    now: "Currently developing more workflow templates and preparing select systems and side projects for public release and monetization."
   },
   // REPLACE THIS WITH YOUR INFO
   social: {
@@ -133,52 +133,64 @@ export const siteContent = {
   // REPLACE THIS WITH YOUR INFO
   portfolio: [
     {
-      title: "Luma Wellness Platform",
-      summary: "A calm, conversion-focused portal for a boutique wellness brand.",
-      tags: ["Product", "Brand", "UI"],
-      results: "Increased booked consultations by 42% in 60 days.",
-      slug: "luma-wellness-platform",
-      overview: "Reimagined the digital experience to feel premium, approachable, and trusted.",
-      problem: "The existing site felt cluttered and had a low consultation conversion rate.",
-      approach: "Refined IA, introduced a new visual system, and streamlined booking flow.",
-      tools: "Figma, Notion, Webflow",
-      learnings: "Small UX upgrades created outsized impact when paired with sharper messaging."
+      title: "Engineering Visibility Dashboard",
+      summary: "Engineering visibility dashboard improving cross-team and leadership alignment.",
+      tags: ["Operations", "Reporting", "Systems"],
+      results: "Improved visibility across engineering workflows.",
+      slug: "engineering-visibility-dashboard",
+      overview: "Built a structured dashboard experience to improve decision-making visibility across engineering teams and leadership.",
+      problem: "Stakeholders lacked a unified view of engineering workflows, priorities, and progress.",
+      approach: "Designed a centralized reporting structure with clear status views and cross-team operational context.",
+      tools: "Notion, Airtable, Looker Studio",
+      learnings: "Clear, shared visibility systems reduce friction and improve execution across technical teams."
     },
     {
-      title: "Marigold Investor Hub",
-      summary: "A secure investor experience with a refined editorial layout.",
-      tags: ["Product", "UX", "Systems"],
-      results: "Cut onboarding support tickets by 25%.",
-      slug: "marigold-investor-hub",
-      overview: "Built a calm, structured portal for quarterly reporting and updates.",
-      problem: "Investors struggled to find key documents and timelines.",
-      approach: "Implemented a modular content hierarchy and simplified navigation.",
-      tools: "Figma, Airtable, Next.js",
-      learnings: "Clarity and discoverability build confidence with high-stakes audiences."
+      title: "Employer Brand & Reputation Strategy",
+      summary: "Structured employee feedback workflows supporting recruiting insight and reputation tracking.",
+      tags: ["Operations", "Employer Brand", "Process Design"],
+      results: "Helped improve employer rating from 2.0 to 4.8.",
+      slug: "employer-brand-reputation-strategy",
+      overview: "Developed a structured reputation strategy to improve recruiting confidence and employer brand perception.",
+      problem: "Employer brand sentiment and review visibility were negatively impacting recruiting outcomes.",
+      approach: "Implemented repeatable outreach, feedback capture, and tracking workflows to support reputation growth.",
+      tools: "Google Workspace, Notion, Glassdoor",
+      learnings: "Consistent feedback systems and operational follow-through can drive measurable brand trust."
     },
     {
-      title: "Citrine Studio Commerce",
-      summary: "A boutique commerce site designed for storytelling and trust.",
-      tags: ["Web", "Commerce", "Visual Design"],
-      results: "Improved conversion rate by 31%.",
-      slug: "citrine-studio-commerce",
-      overview: "Crafted a high-end shopping flow with warm visuals and thoughtful pacing.",
-      problem: "The brand needed to elevate perceived value and reduce bounce rate.",
-      approach: "Built a storytelling-driven layout with premium UI moments.",
-      tools: "Figma, Shopify",
-      learnings: "Editorial storytelling can outperform discounts in premium categories."
+      title: "Onboarding & SOP Documentation Framework",
+      summary: "Standardized onboarding and SOP framework improving training consistency and documentation clarity.",
+      tags: ["Operations", "Documentation", "Training Systems"],
+      results: "Created consistent procedures across teams.",
+      slug: "onboarding-sop-documentation-framework",
+      overview: "Built a centralized onboarding and SOP framework to improve documentation consistency and training clarity.",
+      problem: "Onboarding and process documentation were fragmented across teams, creating inconsistent training outcomes.",
+      approach: "Structured a single source of truth for SOPs, onboarding workflows, and internal references.",
+      tools: "Notion, Google Workspace, Loom",
+      learnings: "Standardized documentation systems accelerate onboarding and reduce repeated support overhead."
     },
     {
-      title: "Northwind Scheduling Suite",
-      summary: "A streamlined scheduling system for distributed teams.",
-      tags: ["Product", "Workflow"],
-      results: "Saved 10+ hours per week across operations.",
-      slug: "northwind-scheduling-suite",
-      overview: "Designed a scheduling suite that keeps remote teams aligned.",
-      problem: "Manual scheduling caused delays and errors for operations teams.",
-      approach: "Unified scheduling views, alerts, and approvals in one dashboard.",
-      tools: "Figma, Miro",
-      learnings: "Operational tools win when they feel as friendly as consumer apps."
+      title: "Operational Asset Tracking System",
+      summary: "Centralized asset tracking system improving inventory organization and reporting accuracy.",
+      tags: ["Operations", "Asset Management", "Reporting"],
+      results: "Unified inventory tracking across locations.",
+      slug: "operational-asset-tracking-system",
+      overview: "Designed and implemented a centralized asset tracking system to improve inventory visibility and operational reporting.",
+      problem: "Asset records were fragmented, making inventory updates and reporting inconsistent across locations.",
+      approach: "Built a standardized tracking workflow with clear ownership and reporting structure.",
+      tools: "Airtable, Google Workspace, Notion",
+      learnings: "Centralized asset systems improve accountability and reduce operational blind spots."
+    },
+    {
+      title: "Music Streaming Platform",
+      summary: "Independently built web-based music platform exploring product development and technical workflows.",
+      tags: ["Technical Projects", "Product Development", "Systems Thinking"],
+      results: "Strengthened technical and system design understanding.",
+      slug: "music-streaming-platform",
+      overview: "Built an independent web-based music platform as a technical product development project.",
+      problem: "I wanted a hands-on project to deepen understanding of full-stack workflows and system design decisions.",
+      approach: "Designed and implemented core user flows, playback experiences, and supporting data/system structure.",
+      tools: "Next.js, TypeScript, Firebase",
+      learnings: "Shipping end-to-end product features accelerated technical confidence and systems thinking."
     }
   ],
   // REPLACE THIS WITH YOUR INFO

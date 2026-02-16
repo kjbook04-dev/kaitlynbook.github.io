@@ -20,7 +20,7 @@ export default function PortfolioPage() {
               Portfolio
             </p>
             <h1 className="text-4xl font-heading text-foreground md:text-5xl">
-              Signature projects and results
+              Operations, Systems, and Workflow Projects
             </h1>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
