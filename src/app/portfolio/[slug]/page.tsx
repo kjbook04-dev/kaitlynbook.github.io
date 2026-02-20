@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import { Container } from "@/components/Container";
@@ -31,6 +32,39 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
     notFound();
   }
 
+  const tools = project.tools
+    .split(/,|\band\b/gi)
+    .map((tool) => tool.trim())
+    .filter(Boolean);
+  const toolsText = tools.join(", ") || project.tools;
+  const projectImage = "image" in project && typeof project.image === "string" ? project.image : null;
+  const projectImages =
+    "imageGallery" in project && Array.isArray(project.imageGallery)
+      ? project.imageGallery.filter((img) => typeof img === "string")
+      : projectImage
+        ? [projectImage]
+        : [];
+  const projectDocument =
+    "documentEmbed" in project && typeof project.documentEmbed === "string"
+      ? project.documentEmbed
+      : null;
+  const documentLinkLabel =
+    "documentLinkLabel" in project && typeof project.documentLinkLabel === "string"
+      ? project.documentLinkLabel
+      : "Open PDF";
+  const showDocumentPreview = project.slug === "onboarding-sop-documentation-framework";
+  const isAutoImageLayout =
+    project.slug === "employer-brand-reputation-strategy" && projectImages.length === 1;
+  const isOperationalRowLayout =
+    project.slug === "operational-asset-tracking-system" && projectImages.length >= 2;
+  const isOperationalThreeLayout =
+    project.slug === "operational-asset-tracking-system" && projectImages.length >= 3;
+  const isOperationalSingleImageLayout =
+    project.slug === "operational-asset-tracking-system" && projectImages.length === 1;
+  const imageFit = "imageFit" in project && project.imageFit === "contain" ? "object-contain" : "object-cover";
+  const imageAspect =
+    "imageFit" in project && project.imageFit === "contain" ? "aspect-[21/7]" : "aspect-[16/10]";
+
   return (
     <div>
       <Section>
@@ -52,6 +86,124 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
           <div className="card p-6">
             <p className="text-sm font-semibold text-primary">{project.results}</p>
           </div>
+          {projectDocument && showDocumentPreview ? (
+            <div className="card p-6">
+              <h2 className="text-lg font-semibold text-foreground">Project Visual</h2>
+              <div className="mt-2 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <div className="space-y-1">
+                  <a
+                    href={projectDocument}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-base font-semibold text-primary transition hover:underline"
+                  >
+                    {documentLinkLabel}
+                  </a>
+                  <p className="text-xs text-muted-foreground">Customer account update workflow sample · opens in a new tab</p>
+                </div>
+                <a
+                  href={projectDocument}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block w-[170px] shrink-0 self-start overflow-hidden rounded-xl border border-border/70 bg-background/70 p-2 shadow-sm sm:-mt-10"
+                  aria-label={`${project.title} PDF preview`}
+                >
+                  <iframe
+                    src={`${projectDocument}#page=1&view=FitH&toolbar=0&navpanes=0&scrollbar=0`}
+                    title={`${project.title} PDF preview`}
+                    className="pointer-events-none h-48 w-full"
+                  />
+                </a>
+              </div>
+            </div>
+          ) : null}
+          {projectImages.length > 0 ? (
+            <div className="card p-6">
+              <h2 className="text-lg font-semibold text-foreground">Project Visual</h2>
+              {projectDocument && !showDocumentPreview ? (
+                <div className="mb-3">
+                  <a
+                    href={projectDocument}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-base font-semibold text-primary transition hover:underline"
+                  >
+                    {documentLinkLabel}
+                  </a>
+                </div>
+              ) : null}
+              {isOperationalRowLayout ? (
+                isOperationalThreeLayout ? (
+                  <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
+                    <div className="projectVisualStrip">
+                      {projectImages.slice(0, 3).map((image, index) => (
+                        <div key={image} className="cell relative">
+                          <Image
+                            src={image}
+                            alt={`${project.title} visual ${index + 1}`}
+                            fill
+                            className="object-fill"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
+                    <div className="grid grid-cols-1 md:grid-cols-2">
+                      {projectImages.map((image, index) => (
+                        <div key={image} className="relative aspect-[16/10] w-full">
+                          <Image
+                            src={image}
+                            alt={`${project.title} visual ${index + 1}`}
+                            fill
+                            className="object-contain"
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )
+              ) : isOperationalSingleImageLayout ? (
+                <div className="mt-3 max-w-[34rem] overflow-hidden rounded-2xl border border-border/70 bg-background/70">
+                  <div className="relative w-full aspect-[16/10]">
+                    <Image
+                      src={projectImages[0]}
+                      alt={`${project.title} visual`}
+                      fill
+                      className="object-fill object-left scale-y-125"
+                    />
+                  </div>
+                </div>
+              ) : isAutoImageLayout ? (
+                <div className="mt-3 overflow-hidden rounded-2xl border border-border/70 bg-background/70">
+                  <Image
+                    src={projectImages[0]}
+                    alt={`${project.title} visual`}
+                    width={2802}
+                    height={314}
+                    className="block h-auto w-full object-contain"
+                    sizes="(min-width: 768px) 900px, 100vw"
+                  />
+                </div>
+              ) : (
+                <div className={`mt-3 grid gap-4 ${projectImages.length > 1 ? "md:grid-cols-2" : ""}`}>
+                  {projectImages.map((image, index) => (
+                    <div key={image} className="overflow-hidden rounded-2xl border border-border/70 bg-background/70">
+                      <div className={`relative w-full ${imageAspect}`}>
+                        <Image
+                          src={image}
+                          alt={`${project.title} visual ${index + 1}`}
+                          fill
+                          className={imageFit}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : null}
         </Container>
       </Section>
 
@@ -71,7 +223,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
           </div>
           <div className="card p-6">
             <h2 className="text-lg font-semibold text-foreground">Tools</h2>
-            <p className="mt-3 text-sm text-muted-foreground">{project.tools}</p>
+            <p className="mt-3 text-sm text-muted-foreground">{toolsText}</p>
           </div>
         </Container>
       </Section>
@@ -79,7 +231,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
       <Section>
         <Container>
           <div className="card p-6">
-            <h2 className="text-lg font-semibold text-foreground">Learnings</h2>
+            <h2 className="text-lg font-semibold text-foreground">Impact</h2>
             <p className="mt-3 text-sm text-muted-foreground">{project.learnings}</p>
           </div>
         </Container>

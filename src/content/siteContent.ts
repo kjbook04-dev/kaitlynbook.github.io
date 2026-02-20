@@ -138,47 +138,80 @@ export const siteContent = {
       tags: ["Operations", "Reporting", "Systems"],
       results: "Improved visibility across engineering workflows.",
       slug: "engineering-visibility-dashboard",
-      overview: "Built a structured dashboard experience to improve decision-making visibility across engineering teams and leadership.",
-      problem: "Stakeholders lacked a unified view of engineering workflows, priorities, and progress.",
-      approach: "Designed a centralized reporting structure with clear status views and cross-team operational context.",
-      tools: "Notion, Airtable, Looker Studio",
-      learnings: "Clear, shared visibility systems reduce friction and improve execution across technical teams."
+      imageGallery: ["/images/engineering-2.png", "/images/engineering-1.png"],
+      overview: "Designed a structured reporting dashboard to improve visibility into engineering workflows, priorities, and progress across leadership and development teams.",
+      problem: "Engineering progress lacked shared visibility, creating communication gaps between leadership and development teams and increasing reporting friction.",
+      approach: "Built a unified reporting framework with clear status views, operational context, and cross-team tracking to support asynchronous collaboration and decision-making.",
+      tools: "Jira, Airtable",
+      visual: {
+        title: "Engineering Workflow Visibility",
+        subtitle: "A dashboard flow connecting project inputs to leadership reporting.",
+        steps: ["Collect team updates", "Standardize status tracking", "Share leadership snapshots"]
+      },
+      learnings: "Shared visibility systems reduce reporting friction and strengthen alignment between technical teams and leadership."
     },
     {
       title: "Employer Brand & Reputation Strategy",
-      summary: "Structured employee feedback workflows supporting recruiting insight and reputation tracking.",
+      summary: "Built structured review and feedback systems to strengthen employer reputation and recruiting visibility.",
       tags: ["Operations", "Employer Brand", "Process Design"],
       results: "Helped improve employer rating from 2.0 to 4.8.",
       slug: "employer-brand-reputation-strategy",
-      overview: "Developed a structured reputation strategy to improve recruiting confidence and employer brand perception.",
-      problem: "Employer brand sentiment and review visibility were negatively impacting recruiting outcomes.",
-      approach: "Implemented repeatable outreach, feedback capture, and tracking workflows to support reputation growth.",
-      tools: "Google Workspace, Notion, Glassdoor",
-      learnings: "Consistent feedback systems and operational follow-through can drive measurable brand trust."
+      imageGallery: ["/images/employer-reputation-flow.png"],
+      imageFit: "contain",
+      overview: "Designed structured feedback and response workflows to improve visibility into employee and customer sentiment while strengthening recruiting and brand credibility.",
+      problem: "The company had limited employee and customer reviews across Glassdoor and Google, resulting in low ratings and minimal public insight into workplace and customer experience.",
+      approach: "Implemented a structured outreach workflow encouraging voluntary employee and customer reviews through coordinated requests and direct access to Glassdoor and Google platforms.",
+      tools: "Google Workspace, Slack, Glassdoor Employer Tools",
+      visual: {
+        title: "Reputation Strategy Loop",
+        subtitle: "A repeatable operating loop for feedback, response, and recruiting signal quality.",
+        steps: ["Capture employee feedback", "Track brand sentiment trends", "Refine outreach and responses"]
+      },
+      learnings: "Improved Glassdoor rating from 2.0 to 4.8 and increased Google rating from 4.0 to 4.6, strengthening employer credibility and customer trust."
     },
     {
       title: "Onboarding & SOP Documentation Framework",
       summary: "Standardized onboarding and SOP framework improving training consistency and documentation clarity.",
       tags: ["Operations", "Documentation", "Training Systems"],
-      results: "Created consistent procedures across teams.",
+      results: "Created consistent procedures across departments.",
       slug: "onboarding-sop-documentation-framework",
-      overview: "Built a centralized onboarding and SOP framework to improve documentation consistency and training clarity.",
-      problem: "Onboarding and process documentation were fragmented across teams, creating inconsistent training outcomes.",
-      approach: "Structured a single source of truth for SOPs, onboarding workflows, and internal references.",
-      tools: "Notion, Google Workspace, Loom",
-      learnings: "Standardized documentation systems accelerate onboarding and reduce repeated support overhead."
+      documentEmbed: "/docs/onboarding-sop-example.pdf",
+      documentPreview: "/docs/onboarding-sop-example-preview.png",
+      documentLinkLabel: "Open SOP Example PDF",
+      overview: "Developed structured onboarding and SOP documentation to create consistent operational guidance and improve knowledge accessibility across departments.",
+      problem: "Operational processes relied on informal knowledge and inconsistent documentation, making onboarding slower and creating uncertainty around standard procedures.",
+      approach: "Designed standardized SOP templates and onboarding documentation that clarified responsibilities, organized workflows, and established repeatable process guidance for daily operations.",
+      tools: "Google Workspace, Process Documentation Templates",
+      visual: {
+        title: "Onboarding and SOP System",
+        subtitle: "A structured path from onboarding tasks to consistent team execution.",
+        steps: ["Map onboarding milestones", "Centralize SOP references", "Audit training completion"]
+      },
+      learnings: "Improved process consistency and onboarding clarity by creating accessible, standardized operational documentation."
     },
     {
       title: "Operational Asset Tracking System",
       summary: "Centralized asset tracking system improving inventory organization and reporting accuracy.",
       tags: ["Operations", "Asset Management", "Reporting"],
-      results: "Unified inventory tracking across locations.",
+      results: "Established consistent, up-to-date inventory visibility.",
       slug: "operational-asset-tracking-system",
-      overview: "Designed and implemented a centralized asset tracking system to improve inventory visibility and operational reporting.",
-      problem: "Asset records were fragmented, making inventory updates and reporting inconsistent across locations.",
-      approach: "Built a standardized tracking workflow with clear ownership and reporting structure.",
-      tools: "Airtable, Google Workspace, Notion",
-      learnings: "Centralized asset systems improve accountability and reduce operational blind spots."
+      documentEmbed: "/docs/inventory-example-sheet2.pdf",
+      documentLinkLabel: "Open Inventory Example PDF",
+      imageGallery: [
+        "/images/Screenshot 2026-02-19 at 2.19.09 PM.png",
+        "/images/Screenshot 2026-02-19 at 2.19.26 PM.png",
+        "/images/Screenshot 2026-02-09 at 11.32.09 AM.png"
+      ],
+      overview: "Developed a structured asset tracking system to improve inventory visibility, organization, and reporting accuracy across operational resources.",
+      problem: "Assets were tracked inconsistently on multiple documents, making it difficult to maintain accurate records, monitor equipment status, and understand overall inventory value.",
+      approach: "Created a unified tracking framework using standardized categories, ownership fields, and status tracking to consolidate records and maintain accurate, up-to-date asset information.",
+      tools: "Google Sheets, Excel, Inventory Tracking Frameworks",
+      visual: {
+        title: "Asset Tracking Workflow",
+        subtitle: "A simple operational flow for intake, updates, and reporting accuracy.",
+        steps: ["Log asset intake", "Maintain ownership updates", "Review reporting summaries"]
+      },
+      learnings: "Improved inventory visibility and reporting accuracy by establishing a single, reliable source of asset information."
     },
     {
       title: "Music Streaming Platform",
@@ -190,6 +223,11 @@ export const siteContent = {
       problem: "I wanted a hands-on project to deepen understanding of full-stack workflows and system design decisions.",
       approach: "Designed and implemented core user flows, playback experiences, and supporting data/system structure.",
       tools: "Next.js, TypeScript, Firebase",
+      visual: {
+        title: "Product Development Flow",
+        subtitle: "An end-to-end build flow from feature planning to release validation.",
+        steps: ["Define feature requirements", "Build and test user flows", "Iterate from usage feedback"]
+      },
       learnings: "Shipping end-to-end product features accelerated technical confidence and systems thinking."
     }
   ],
