@@ -39,7 +39,13 @@ export default function AboutPage() {
               {siteContent.photos.gallery.map((photo) => (
                 <div key={photo} className="card overflow-hidden">
                   <div className="relative aspect-[4/5]">
-                    <Image src={photo} alt="Gallery" fill className="object-cover" />
+                    <Image
+                      src={photo}
+                      alt="Gallery"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
                   </div>
                 </div>
               ))}

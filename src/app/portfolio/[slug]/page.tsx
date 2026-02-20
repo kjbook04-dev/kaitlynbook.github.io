@@ -157,6 +157,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                             alt={`${project.title} visual ${index + 1}`}
                             fill
                             className="object-fill object-top"
+                            priority
                           />
                         </div>
                       ))}
@@ -172,6 +173,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                             alt={`${project.title} visual ${index + 1}`}
                             fill
                             className="object-contain"
+                            priority
                           />
                         </div>
                       ))}
@@ -186,6 +188,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                       alt={`${project.title} visual`}
                       fill
                       className="object-fill object-left scale-y-125"
+                      priority
                     />
                   </div>
                 </div>
@@ -198,6 +201,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                     height={314}
                     className="block h-auto w-full object-contain"
                     sizes="(min-width: 768px) 900px, 100vw"
+                    priority
                   />
                 </div>
               ) : (
@@ -210,6 +214,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                           alt={`${project.title} visual ${index + 1}`}
                           fill
                           className={imageFit}
+                          priority
                         />
                       </div>
                     </div>
