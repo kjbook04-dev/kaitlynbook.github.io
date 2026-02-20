@@ -178,6 +178,7 @@ export const siteContent = {
       documentEmbed: "/docs/onboarding-sop-example.pdf",
       documentPreview: "/docs/onboarding-sop-example-preview.png",
       documentLinkLabel: "Open SOP Example PDF",
+      documentHelperText: "Customer account update workflow sample · opens in a new tab",
       overview: "Developed structured onboarding and SOP documentation to create consistent operational guidance and improve knowledge accessibility across departments.",
       problem: "Operational processes relied on informal knowledge and inconsistent documentation, making onboarding slower and creating uncertainty around standard procedures.",
       approach: "Designed standardized SOP templates and onboarding documentation that clarified responsibilities, organized workflows, and established repeatable process guidance for daily operations.",
@@ -198,9 +199,9 @@ export const siteContent = {
       documentEmbed: "/docs/inventory-example-sheet2.pdf",
       documentLinkLabel: "Open Inventory Example PDF",
       imageGallery: [
-        "/images/Screenshot 2026-02-19 at 2.19.09 PM.png",
-        "/images/Screenshot 2026-02-19 at 2.19.26 PM.png",
-        "/images/Screenshot 2026-02-09 at 11.32.09 AM.png"
+        "/images/operational-table-left.png",
+        "/images/operational-table-right.png",
+        "/images/operational-charts-combined.png"
       ],
       overview: "Developed a structured asset tracking system to improve inventory visibility, organization, and reporting accuracy across operational resources.",
       problem: "Assets were tracked inconsistently on multiple documents, making it difficult to maintain accurate records, monitor equipment status, and understand overall inventory value.",
@@ -219,16 +220,19 @@ export const siteContent = {
       tags: ["Technical Projects", "Product Development", "Systems Thinking"],
       results: "Strengthened technical and system design understanding.",
       slug: "music-streaming-platform",
-      overview: "Built an independent web-based music platform as a technical product development project.",
-      problem: "I wanted a hands-on project to deepen understanding of full-stack workflows and system design decisions.",
-      approach: "Designed and implemented core user flows, playback experiences, and supporting data/system structure.",
-      tools: "Next.js, TypeScript, Firebase",
+      externalPreviewUrl: "https://kjbeats.com/",
+      documentLinkLabel: "Open KJ Beats",
+      documentHelperText: "Live platform preview · opens in a new tab",
+      overview: "Designed and launched a personal music streaming platform to deepen understanding of software workflows, system architecture, and AI-assisted development.",
+      problem: "Limited hands-on exposure to coding and development workflows made it difficult to fully understand how technical systems are built, deployed, and maintained.",
+      approach: "Built a functional streaming platform using AI-assisted development, learning core concepts including version control, deployment workflows, and iterative feature development.",
+      tools: "Visual Studio Code, GitHub, Vercel, Firebase, Codex",
       visual: {
         title: "Product Development Flow",
         subtitle: "An end-to-end build flow from feature planning to release validation.",
         steps: ["Define feature requirements", "Build and test user flows", "Iterate from usage feedback"]
       },
-      learnings: "Shipping end-to-end product features accelerated technical confidence and systems thinking."
+      learnings: "Strengthened technical fluency and improved ability to collaborate with engineering teams by gaining practical experience with real development workflows."
     }
   ],
   // REPLACE THIS WITH YOUR INFO

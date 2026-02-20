@@ -51,8 +51,7 @@ export default function BlogDetailPage({ params }: BlogDetailPageProps) {
           </div>
           <div className="card p-6">
             <p className="text-sm text-muted-foreground">
-              This is a placeholder post page. Replace this content by connecting MDX files
-              or editing the blog entries in `src/content/siteContent.ts`.
+              Blog post content coming soon
             </p>
           </div>
         </Container>

@@ -90,11 +90,24 @@ a {
   overflow: hidden;
 }
 
+.projectVisualStrip .cell--wide {
+  flex: 1.3 1 0;
+}
+
+.projectVisualStrip .cell--narrow {
+  flex: 0.65 1 0;
+}
+
+.projectVisualStrip .cell--second-taller img {
+  transform: scaleY(1.003);
+  transform-origin: top center;
+}
+
 
 .projectVisualStrip img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center;
+  object-fit: fill;
+  object-position: top;
   display: block;
 }
