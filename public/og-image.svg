@@ -2,21 +2,21 @@
   <rect width="1200" height="630" fill="#E9E4E4"/>
   <rect x="1.5" y="1.5" width="1197" height="627" rx="38.5" fill="#E9E4E4" stroke="#C98B95" stroke-width="3"/>
 
-  <circle cx="106" cy="103" r="50" fill="#C98B95"/>
-  <text x="106" y="128" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-style="italic" fill="#FFF7F5">K</text>
+  <circle cx="104" cy="102" r="50" fill="#C98B95"/>
+  <text x="104" y="127" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-style="italic" fill="#FFF7F5">K</text>
 
-  <text x="188" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="600" fill="#2F2B2B">Kaitlyn Book</text>
-  <text x="188" y="154" font-family="'Helvetica Neue', Arial, sans-serif" font-size="48" fill="#676060">Executive Operations &amp; Workflow Systems</text>
+  <text x="188" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="600" fill="#2F2B2B">Kaitlyn Book</text>
+  <text x="188" y="152" font-family="'Helvetica Neue', Arial, sans-serif" font-size="25" fill="#676060">Executive Operations &amp; Workflow Systems</text>
 
   <text x="40" y="292" font-family="'Helvetica Neue', Arial, sans-serif" font-size="67" font-weight="700" fill="#2F2B2B">Personal Website</text>
 
-  <text x="40" y="368" font-family="'Helvetica Neue', Arial, sans-serif" font-size="54" fill="#4C4646">
+  <text x="40" y="368" font-family="'Helvetica Neue', Arial, sans-serif" font-size="56" fill="#4C4646">
     Designing scalable operations, executive workflows, and digital systems
   </text>
-  <text x="40" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="54" fill="#4C4646">
+  <text x="40" y="424" font-family="'Helvetica Neue', Arial, sans-serif" font-size="56" fill="#4C4646">
     that bring clarity, efficiency, and measurable business impact
   </text>
 
-  <rect x="40" y="492" width="460" height="74" rx="37" fill="#C98B95"/>
-  <text x="270" y="539" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#FFF7F5">https://kaitlynbook.com/</text>
+  <rect x="40" y="492" width="450" height="74" rx="37" fill="#C98B95"/>
+  <text x="265" y="539" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#FFF7F5">https://kaitlynbook.com/</text>
 </svg>
