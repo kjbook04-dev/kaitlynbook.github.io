@@ -21,6 +21,7 @@ const playfair = Playfair_Display({
 });
 
 const siteUrl = "https://kaitlynbook.com";
+const socialPreviewImage = `${siteUrl}/linkedin-thumbnail-card-v2.png?v=20260223-1`;
 
 export const metadata: Metadata = {
   title: {
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/linkedin-thumbnail-card-v2.png",
+        url: socialPreviewImage,
         width: 1060,
         height: 451,
         alt: `${siteContent.personal.name} portfolio preview`
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteContent.personal.name} · Personal Website`,
     description: "Personal Website",
-    images: ["/linkedin-thumbnail-card-v2.png"]
+    images: [socialPreviewImage]
   },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
