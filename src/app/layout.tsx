@@ -24,7 +24,7 @@ const siteUrl = "https://kaitlynbook.com";
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteContent.personal.name} · ${siteContent.personal.title}`,
+    default: `${siteContent.personal.name} · Personal Website`,
     template: `%s · ${siteContent.personal.name}`
   },
   description: siteContent.personal.tagline,
@@ -33,25 +33,25 @@ export const metadata: Metadata = {
     canonical: "/"
   },
   openGraph: {
-    title: `${siteContent.personal.name} · ${siteContent.personal.title}`,
-    description: siteContent.personal.tagline,
+    title: `${siteContent.personal.name} · Personal Website`,
+    description: "Personal Website",
     url: "/",
     siteName: `${siteContent.personal.name} Portfolio`,
     type: "website",
     images: [
       {
-        url: "/images/linkedin-thumbnail-1200x627.png",
+        url: "/og-image.svg",
         width: 1200,
-        height: 627,
+        height: 630,
         alt: `${siteContent.personal.name} portfolio preview`
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteContent.personal.name} · ${siteContent.personal.title}`,
-    description: siteContent.personal.tagline,
-    images: ["/images/linkedin-thumbnail-1200x627.png"]
+    title: `${siteContent.personal.name} · Personal Website`,
+    description: "Personal Website",
+    images: ["/og-image.svg"]
   },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
