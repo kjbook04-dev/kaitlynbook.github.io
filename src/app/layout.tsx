@@ -21,7 +21,7 @@ const playfair = Playfair_Display({
 });
 
 const siteUrl = "https://kaitlynbook.com";
-const socialPreviewImage = `${siteUrl}/linkedin-thumbnail-card-v2.png?v=20260223-1`;
+const socialPreviewImage = `${siteUrl}/linkedin-thumbnail-card-v3.png`;
 
 export const metadata: Metadata = {
   title: {
