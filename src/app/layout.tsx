@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/linkedin-thumbnail-card%20%281%29.png",
+        url: "/linkedin-thumbnail-card-v2.png",
         width: 1060,
         height: 451,
         alt: `${siteContent.personal.name} portfolio preview`
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteContent.personal.name} · Personal Website`,
     description: "Personal Website",
-    images: ["/linkedin-thumbnail-card%20%281%29.png"]
+    images: ["/linkedin-thumbnail-card-v2.png"]
   },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
