@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
   display: "swap"
 });
 
-const siteUrl = "https://kjbook04-dev.github.io";
+const siteUrl = "https://kaitlynbook.com";
 
 export const metadata: Metadata = {
   title: {
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/images/linkedin-thumbnail-1200x627.png",
         width: 1200,
-        height: 630,
+        height: 627,
         alt: `${siteContent.personal.name} portfolio preview`
       }
     ]
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${siteContent.personal.name} · ${siteContent.personal.title}`,
     description: siteContent.personal.tagline,
-    images: ["/og-image.svg"]
+    images: ["/images/linkedin-thumbnail-1200x627.png"]
   },
   icons: {
     icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
