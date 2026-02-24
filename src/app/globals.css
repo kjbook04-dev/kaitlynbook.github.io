@@ -26,6 +26,13 @@ body {
   @apply bg-background text-foreground font-body antialiased;
 }
 
+@media (min-width: 1024px) {
+  html.platform-windows,
+  html.platform-android-desktop {
+    font-size: 15px;
+  }
+}
+
 a {
   @apply text-foreground;
 }

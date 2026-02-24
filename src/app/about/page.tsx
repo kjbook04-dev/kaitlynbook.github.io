@@ -43,8 +43,8 @@ export default function AboutPage() {
                       src={photo}
                       alt="Gallery"
                       fill
+                      sizes="(min-width: 768px) 33vw, 100vw"
                       className="object-cover"
-                      priority
                     />
                   </div>
                 </div>
