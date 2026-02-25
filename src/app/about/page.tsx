@@ -40,9 +40,9 @@ export default function AboutPage() {
                     <img
                       src={photo}
                       alt="Gallery"
-                      loading={index === 0 ? "eager" : "lazy"}
+                      loading="eager"
                       fetchPriority={index === 0 ? "high" : "auto"}
-                      decoding="async"
+                      decoding="sync"
                       className="h-full w-full object-cover"
                     />
                   </div>
