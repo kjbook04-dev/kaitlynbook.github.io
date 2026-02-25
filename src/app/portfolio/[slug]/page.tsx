@@ -125,14 +125,16 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                 >
                   {showDocumentPreview && projectDocumentPreview ? (
                     <>
-                      <Image
-                        src={projectDocumentPreview}
-                        alt={`${project.title} preview`}
-                        width={1200}
-                        height={900}
-                        className="block h-56 w-full rounded-lg object-cover object-top sm:hidden"
-                        priority
-                      />
+                      <div className="h-56 w-full overflow-hidden rounded-lg bg-white sm:hidden">
+                        <Image
+                          src={projectDocumentPreview}
+                          alt={`${project.title} preview`}
+                          width={1200}
+                          height={900}
+                          className="h-full w-full object-cover object-top"
+                          priority
+                        />
+                      </div>
                       <iframe
                         src={inlinePreviewSrc}
                         title={`${project.title} preview`}
@@ -172,9 +174,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                       {projectImages.slice(0, 3).map((image, index) => (
                         <div
                           key={image}
-                          className={`overflow-hidden rounded-xl bg-background/70 ${
-                            index === 1 ? "border-y border-border/70 md:border" : "border border-border/70"
-                          }`}
+                          className="overflow-hidden rounded-xl border border-border/70 bg-background/70"
                         >
                           <div
                             className={`relative w-full ${
@@ -185,7 +185,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                               src={image}
                               alt={`${project.title} visual ${index + 1}`}
                               fill
-                              className="object-contain object-center"
+                              className={index === 1 ? "object-cover object-center" : "object-contain object-center"}
                               priority
                             />
                           </div>
