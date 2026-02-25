@@ -60,6 +60,10 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
     "documentHelperText" in project && typeof project.documentHelperText === "string"
       ? project.documentHelperText
       : "Opens in a new tab";
+  const projectDocumentPreview =
+    "documentPreview" in project && typeof project.documentPreview === "string"
+      ? project.documentPreview
+      : null;
   const showDocumentPreview = project.slug === "onboarding-sop-documentation-framework";
   const showInlinePreview = (projectDocument && showDocumentPreview) || !!externalPreviewUrl;
   const inlinePreviewHref = externalPreviewUrl ?? projectDocument;
@@ -119,11 +123,29 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                   className="mt-2 block w-full max-w-full shrink-0 self-stretch overflow-hidden rounded-xl border border-border/70 bg-background/70 p-2 shadow-sm sm:-mt-10 sm:w-[340px] sm:max-w-[340px] sm:self-start"
                   aria-label={`${project.title} preview`}
                 >
-                  <iframe
-                    src={inlinePreviewSrc}
-                    title={`${project.title} preview`}
-                    className="pointer-events-none h-56 w-full sm:h-48"
-                  />
+                  {showDocumentPreview && projectDocumentPreview ? (
+                    <>
+                      <Image
+                        src={projectDocumentPreview}
+                        alt={`${project.title} preview`}
+                        width={1200}
+                        height={900}
+                        className="block h-56 w-full rounded-lg object-cover sm:hidden"
+                        priority
+                      />
+                      <iframe
+                        src={inlinePreviewSrc}
+                        title={`${project.title} preview`}
+                        className="pointer-events-none hidden h-48 w-full sm:block"
+                      />
+                    </>
+                  ) : (
+                    <iframe
+                      src={inlinePreviewSrc}
+                      title={`${project.title} preview`}
+                      className="pointer-events-none h-56 w-full sm:h-48"
+                    />
+                  )}
                 </a>
               </div>
             </div>
@@ -149,12 +171,16 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                     <div className="grid gap-4 bg-background/50 p-3 md:hidden">
                       {projectImages.slice(0, 3).map((image, index) => (
                         <div key={image} className="overflow-hidden rounded-xl border border-border/70 bg-background/70">
-                          <div className="relative w-full aspect-[16/10]">
+                          <div
+                            className={`relative w-full ${
+                              index < 2 ? "aspect-[2020/1084]" : "aspect-[802/1194]"
+                            }`}
+                          >
                             <Image
                               src={image}
                               alt={`${project.title} visual ${index + 1}`}
                               fill
-                              className="object-contain object-top"
+                              className="object-contain object-center"
                               priority
                             />
                           </div>
