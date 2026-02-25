@@ -60,10 +60,6 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
     "documentHelperText" in project && typeof project.documentHelperText === "string"
       ? project.documentHelperText
       : "Opens in a new tab";
-  const projectDocumentPreview =
-    "documentPreview" in project && typeof project.documentPreview === "string"
-      ? project.documentPreview
-      : null;
   const showDocumentPreview = project.slug === "onboarding-sop-documentation-framework";
   const showInlinePreview = (projectDocument && showDocumentPreview) || !!externalPreviewUrl;
   const inlinePreviewHref = externalPreviewUrl ?? projectDocument;
@@ -123,29 +119,11 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                   className="mt-2 block w-full max-w-full shrink-0 self-stretch overflow-hidden rounded-xl border border-border/70 bg-background/70 p-2 shadow-sm sm:-mt-10 sm:w-[340px] sm:max-w-[340px] sm:self-start"
                   aria-label={`${project.title} preview`}
                 >
-                  {showDocumentPreview && projectDocumentPreview ? (
-                    <>
-                      <Image
-                        src={projectDocumentPreview}
-                        alt={`${project.title} preview`}
-                        width={1200}
-                        height={900}
-                        className="block h-56 w-full rounded-lg object-contain sm:hidden"
-                        priority
-                      />
-                      <iframe
-                        src={inlinePreviewSrc}
-                        title={`${project.title} preview`}
-                        className="pointer-events-none hidden h-48 w-full sm:block"
-                      />
-                    </>
-                  ) : (
-                    <iframe
-                      src={inlinePreviewSrc}
-                      title={`${project.title} preview`}
-                      className="pointer-events-none h-56 w-full sm:h-48"
-                    />
-                  )}
+                  <iframe
+                    src={inlinePreviewSrc}
+                    title={`${project.title} preview`}
+                    className="pointer-events-none h-56 w-full sm:h-48"
+                  />
                 </a>
               </div>
             </div>
@@ -176,28 +154,30 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                               src={image}
                               alt={`${project.title} visual ${index + 1}`}
                               fill
-                              className="object-contain object-top p-2"
+                              className="object-contain object-top"
                               priority
                             />
                           </div>
                         </div>
                       ))}
                     </div>
-                    <div className="projectVisualStrip hidden md:flex">
-                      {projectImages.slice(0, 3).map((image, index) => (
-                        <div
-                          key={image}
-                          className={`cell relative ${index < 2 ? "cell--wide" : "cell--narrow"} ${index === 1 ? "cell--second-taller" : ""}`}
-                        >
-                          <Image
-                            src={image}
-                            alt={`${project.title} visual ${index + 1}`}
-                            fill
-                            className="object-fill object-top"
-                            priority
-                          />
-                        </div>
-                      ))}
+                    <div className="hidden md:block">
+                      <div className="projectVisualStrip">
+                        {projectImages.slice(0, 3).map((image, index) => (
+                          <div
+                            key={image}
+                            className={`cell relative ${index < 2 ? "cell--wide" : "cell--narrow"} ${index === 1 ? "cell--second-taller" : ""}`}
+                          >
+                            <Image
+                              src={image}
+                              alt={`${project.title} visual ${index + 1}`}
+                              fill
+                              className="object-fill object-top"
+                              priority
+                            />
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 ) : (
