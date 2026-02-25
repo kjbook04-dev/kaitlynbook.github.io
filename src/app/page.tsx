@@ -60,7 +60,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-6">
             <div className="flex items-center justify-between">
               <h2 className="section-heading">Navigate the hub</h2>
-              <Link href="/about" className="link-underline">About me</Link>
+              <a href="/about" className="link-underline">About me</a>
             </div>
             <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
               {siteContent.hubCards.map((card) => (
@@ -114,7 +114,7 @@ export default function HomePage() {
             <h2 className="section-heading">About</h2>
             <p className="text-sm text-muted-foreground">{siteContent.personal.bio[0]}</p>
             <p className="text-sm text-muted-foreground">{siteContent.personal.bio[1]}</p>
-            <Link href="/about" className="link-accent">Read more</Link>
+            <a href="/about" className="link-accent">Read more</a>
           </div>
           <div className="card p-6">
             <h3 className="text-lg font-semibold text-foreground">Now</h3>

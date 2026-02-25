@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
 import { Tag } from "@/components/Tag";
@@ -39,12 +37,12 @@ export default function AboutPage() {
               {siteContent.photos.gallery.map((photo) => (
                 <div key={photo} className="card overflow-hidden">
                   <div className="relative aspect-[4/5]">
-                    <Image
+                    <img
                       src={photo}
                       alt="Gallery"
-                      fill
-                      sizes="(min-width: 768px) 33vw, 100vw"
-                      className="object-cover"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
                     />
                   </div>
                 </div>
