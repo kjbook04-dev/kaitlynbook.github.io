@@ -130,7 +130,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                         alt={`${project.title} preview`}
                         width={1200}
                         height={900}
-                        className="block h-56 w-full rounded-lg object-cover sm:hidden"
+                        className="block h-56 w-full rounded-lg object-cover object-top sm:hidden"
                         priority
                       />
                       <iframe
@@ -170,7 +170,12 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                   <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
                     <div className="grid gap-4 bg-background/50 p-3 md:hidden">
                       {projectImages.slice(0, 3).map((image, index) => (
-                        <div key={image} className="overflow-hidden rounded-xl border border-border/70 bg-background/70">
+                        <div
+                          key={image}
+                          className={`overflow-hidden rounded-xl bg-background/70 ${
+                            index === 1 ? "border-y border-border/70 md:border" : "border border-border/70"
+                          }`}
+                        >
                           <div
                             className={`relative w-full ${
                               index < 2 ? "aspect-[2020/1084]" : "aspect-[802/1194]"
