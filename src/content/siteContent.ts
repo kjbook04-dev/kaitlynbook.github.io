@@ -38,7 +38,7 @@ export const siteContent = {
   },
   // REPLACE THIS WITH YOUR INFO
   photos: {
-    headshot: "/images/headshot.jpg",
+    headshot: "/images/new.headshot.jpg",
     gallery: [
       "/images/gallery-1.jpg",
       "/images/gallery-2.jpg",
