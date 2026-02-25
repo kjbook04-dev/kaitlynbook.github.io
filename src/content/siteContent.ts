@@ -40,9 +40,9 @@ export const siteContent = {
   photos: {
     headshot: "/images/headshot.jpg",
     gallery: [
-      "/images/gallery-1-fast.jpg",
-      "/images/gallery-2-fast.jpg",
-      "/images/gallery-3-fast.jpg"
+      "/images/gallery-1.jpg",
+      "/images/gallery-2.jpg",
+      "/images/gallery-3.jpg"
     ]
   },
   // REPLACE THIS WITH YOUR INFO
