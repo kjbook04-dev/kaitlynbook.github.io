@@ -41,8 +41,8 @@ export default function HomePage() {
               {siteContent.personal.bio[0]}
             </p>
           </div>
-          <div className="card card-hover flex items-center justify-center p-6">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
+          <div className="card card-hover overflow-hidden p-0">
+            <div className="relative aspect-[4/5] w-full">
               <Image
                 src={siteContent.photos.headshot}
                 alt={`${siteContent.personal.name} headshot`}
