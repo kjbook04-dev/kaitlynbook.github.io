@@ -116,13 +116,13 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                   href={inlinePreviewHref}
                   target="_blank"
                   rel="noreferrer"
-                  className="block w-[340px] shrink-0 self-start overflow-hidden rounded-xl border border-border/70 bg-background/70 p-2 shadow-sm sm:-mt-10"
+                  className="mt-2 block w-full max-w-full shrink-0 self-stretch overflow-hidden rounded-xl border border-border/70 bg-background/70 p-2 shadow-sm sm:-mt-10 sm:w-[340px] sm:max-w-[340px] sm:self-start"
                   aria-label={`${project.title} preview`}
                 >
                   <iframe
                     src={inlinePreviewSrc}
                     title={`${project.title} preview`}
-                    className="pointer-events-none h-48 w-full"
+                    className="pointer-events-none h-56 w-full sm:h-48"
                   />
                 </a>
               </div>
@@ -144,42 +144,24 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                 </div>
               ) : null}
               {isOperationalRowLayout ? (
-                isOperationalThreeLayout ? (
-                  <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
-                    <div className="projectVisualStrip">
-                      {projectImages.slice(0, 3).map((image, index) => (
-                        <div
-                          key={image}
-                          className={`cell relative ${index < 2 ? "cell--wide" : "cell--narrow"} ${index === 1 ? "cell--second-taller" : ""}`}
-                        >
-                          <Image
-                            src={image}
-                            alt={`${project.title} visual ${index + 1}`}
-                            fill
-                            className="object-fill object-top"
-                            priority
-                          />
-                        </div>
-                      ))}
+                <div className="mt-3 grid gap-4 md:grid-cols-2">
+                  {projectImages.map((image, index) => (
+                    <div
+                      key={image}
+                      className={`overflow-hidden rounded-2xl border border-border/70 bg-background/70 ${isOperationalThreeLayout && index === 2 ? "md:col-span-2" : ""}`}
+                    >
+                      <div className="relative w-full aspect-[4/3] md:aspect-[16/10]">
+                        <Image
+                          src={image}
+                          alt={`${project.title} visual ${index + 1}`}
+                          fill
+                          className="object-contain object-top p-2 md:p-3"
+                          priority
+                        />
+                      </div>
                     </div>
-                  </div>
-                ) : (
-                  <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
-                    <div className="grid grid-cols-1 md:grid-cols-2">
-                      {projectImages.map((image, index) => (
-                        <div key={image} className="relative aspect-[16/10] w-full">
-                          <Image
-                            src={image}
-                            alt={`${project.title} visual ${index + 1}`}
-                            fill
-                            className="object-contain"
-                            priority
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )
+                  ))}
+                </div>
               ) : isOperationalSingleImageLayout ? (
                 <div className="mt-3 max-w-[34rem] overflow-hidden rounded-2xl border border-border/70 bg-background/70">
                   <div className="relative w-full aspect-[16/10]">
@@ -187,7 +169,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                       src={projectImages[0]}
                       alt={`${project.title} visual`}
                       fill
-                      className="object-fill object-left scale-y-125"
+                      className="object-contain object-top p-2"
                       priority
                     />
                   </div>
