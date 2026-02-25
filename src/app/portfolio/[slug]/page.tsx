@@ -131,7 +131,7 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                           alt={`${project.title} preview`}
                           width={1200}
                           height={900}
-                          className="h-full w-full object-cover object-top"
+                          className="h-full w-full rounded-lg object-cover object-top"
                           priority
                         />
                       </div>
@@ -169,12 +169,12 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
               ) : null}
               {isOperationalRowLayout ? (
                 isOperationalThreeLayout ? (
-                  <div className="mt-3 overflow-hidden rounded-2xl border border-border/70">
-                    <div className="grid gap-4 bg-background/50 p-3 md:hidden">
+                  <div className="mt-3 overflow-hidden rounded-2xl md:border md:border-border/70">
+                    <div className="grid gap-4 p-0 md:hidden">
                       {projectImages.slice(0, 3).map((image, index) => (
                         <div
                           key={image}
-                          className="overflow-hidden rounded-xl border border-border/70 bg-background/70"
+                          className="overflow-hidden rounded-xl border border-border/70"
                         >
                           <div
                             className={`relative w-full ${
