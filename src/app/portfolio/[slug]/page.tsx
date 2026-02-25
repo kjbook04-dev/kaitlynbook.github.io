@@ -125,13 +125,13 @@ export default function PortfolioDetailPage({ params }: PortfolioDetailPageProps
                 >
                   {showDocumentPreview && projectDocumentPreview ? (
                     <>
-                      <div className="h-56 w-full overflow-hidden rounded-lg bg-white sm:hidden">
+                      <div className="h-56 w-full overflow-hidden bg-white sm:hidden">
                         <Image
                           src={projectDocumentPreview}
                           alt={`${project.title} preview`}
                           width={1200}
                           height={900}
-                          className="h-full w-full rounded-lg object-cover object-top"
+                          className="h-full w-full object-cover object-top"
                           priority
                         />
                       </div>
