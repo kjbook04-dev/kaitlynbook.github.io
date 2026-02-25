@@ -73,6 +73,9 @@ export default function RootLayout({
         <Script id="platform-desktop-scale" strategy="beforeInteractive">
           {`(function(){try{var ua=navigator.userAgent||"";if(/Windows/i.test(ua)){document.documentElement.classList.add("platform-windows");}if(/Android/i.test(ua)&&!/Mobile/i.test(ua)){document.documentElement.classList.add("platform-android-desktop");}}catch(_e){}})();`}
         </Script>
+        <Script id="chunk-load-recovery" strategy="beforeInteractive">
+          {`(function(){try{var KEY="__chunk_reload_once__";function shouldReload(err){var msg=(err&&((err.message)||String(err)))||"";return /ChunkLoadError|Loading chunk [\\d]+ failed|Failed to fetch dynamically imported module/i.test(msg);}function reloadOnce(){if(sessionStorage.getItem(KEY)==="1"){return;}sessionStorage.setItem(KEY,"1");window.location.reload();}window.addEventListener("error",function(e){if(shouldReload(e&&e.error)){reloadOnce();}});window.addEventListener("unhandledrejection",function(e){if(shouldReload(e&&e.reason)){reloadOnce();}});window.addEventListener("load",function(){sessionStorage.removeItem(KEY);});}catch(_e){}})();`}
+        </Script>
         <div className="min-h-screen bg-hero-wash">
           <Header />
           <main>{children}</main>
