@@ -34,13 +34,14 @@ export default function AboutPage() {
           <div className="space-y-6">
             <h2 className="section-heading">Photo gallery</h2>
             <div className="grid gap-6 md:grid-cols-3">
-              {siteContent.photos.gallery.map((photo) => (
+              {siteContent.photos.gallery.map((photo, index) => (
                 <div key={photo} className="card overflow-hidden">
                   <div className="relative aspect-[4/5]">
                     <img
                       src={photo}
                       alt="Gallery"
-                      loading="lazy"
+                      loading={index === 0 ? "eager" : "lazy"}
+                      fetchPriority={index === 0 ? "high" : "auto"}
                       decoding="async"
                       className="h-full w-full object-cover"
                     />
