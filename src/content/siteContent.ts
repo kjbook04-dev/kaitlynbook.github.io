@@ -41,7 +41,7 @@ export const siteContent = {
     headshot: "/images/headshot-light-tan.png",
     gallery: [
       "/images/gallery-1.jpg",
-      "/images/gallery-2.jpg",
+      "/images/gallery-2-updated.jpg",
       "/images/gallery-3.jpg"
     ]
   },
