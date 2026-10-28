@@ -5,7 +5,7 @@ import { Container } from "@/components/Container";
 import { HubIcon, type HubIconName } from "@/components/HubIcon";
 import { Section } from "@/components/Section";
 import { Tag } from "@/components/Tag";
-import { siteContent } from "@/content/siteContent";
+import { siteContent, visibleResources } from "@/content/siteContent";
 
 export const metadata = {
   title: "Home",
@@ -15,7 +15,7 @@ export const metadata = {
 export default function HomePage() {
   const featuredProjects = siteContent.portfolio.slice(0, 3);
   const latestPosts = siteContent.blog.slice(0, 3);
-  const resourcePreview = siteContent.resources.slice(0, 3);
+  const resourcePreview = visibleResources.slice(0, 3);
 
   return (
     <div>

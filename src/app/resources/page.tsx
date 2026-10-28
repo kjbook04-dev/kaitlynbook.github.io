@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
 import { Tag } from "@/components/Tag";
-import { siteContent } from "@/content/siteContent";
+import { visibleResources } from "@/content/siteContent";
 
 export const metadata = {
   title: "Resources",
@@ -29,7 +29,7 @@ export default function ResourcesPage() {
 
       <Section className="bg-section-wash">
         <Container className="space-y-8">
-          {siteContent.resources.map((resource) => {
+          {visibleResources.map((resource) => {
             const isReadingStack = resource.category === "Reading & Workflow Stack";
             const maxHeightClass = isReadingStack ? "max-h-[16rem] overflow-y-auto pr-2" : "";
 
