@@ -6,9 +6,9 @@ export const siteContent = {
     tagline: "Designing scalable operations, executive workflows, and digital systems that bring clarity, efficiency, and measurable business impact.",
     location: "Denver, CO",
     bio: [
-      "Kaitlyn is based in Colorado and works as an Executive Assistant and Operations Support professional. She has always been drawn to how businesses operate behind the scenes - from organization and scheduling to systems that help teams work more efficiently.",
+      "Kaitlyn is a business operations and executive support professional based in Colorado, with experience supporting senior leadership, improving operational workflows, and developing systems that strengthen business efficiency. She has always been drawn to how businesses operate behind the scenes - from organization and scheduling to systems that help teams work more efficiently.",
       "She started college early through Pikes Peak State College, graduating high school with an Associate degree in Business, and later earned her Bachelor of Science in Business Administration and Management from Western Governors University at age 20.",
-      "Kaitlyn currently supports executive leadership by helping teams stay organized, improving workflows, and coordinating projects across departments. She enjoys learning new tools, exploring automation and AI, and finding practical ways technology can simplify everyday business processes.",
+      "Kaitlyn has supported executive leadership through operational coordination, workflow improvements, and projects spanning multiple departments. She enjoys learning new tools, exploring automation and AI, and finding practical ways technology can simplify everyday business processes.",
       "Outside of work, Kaitlyn enjoys puzzles, painting, visiting museums, exploring nature, and sightseeing wherever she travels. She values personal growth, strong relationships, and building a career that blends structure, creativity, and continuous learning."
     ],
     values: [
@@ -50,7 +50,7 @@ export const siteContent = {
     {
       role: "Executive Assistant & Operations Support",
       company: "Ringy",
-      dates: "Jul 2025 - Present",
+      dates: "July 2025 – March 2026",
       bullets: [
         "Supported executive leadership while driving cross-functional operational initiatives across business, technical, and administrative teams",
         "Designed and implemented internal process improvements including onboarding documentation, asset tracking systems, and workflow organization that improved operational efficiency and visibility",
@@ -68,7 +68,7 @@ export const siteContent = {
     {
       role: "Spa Associate",
       company: "5 Star Salt Caves Inc",
-      dates: "Oct 2024 - Jun 2025",
+      dates: "October 2024 – Present",
       bullets: [
         "Delivered high-quality client support while maintaining efficient daily service operations and appointment flow",
         "Managed scheduling and booking coordination to improve operational efficiency and customer satisfaction",
@@ -424,3 +424,14 @@ export const siteContent = {
 } as const;
 
 export type SiteContent = typeof siteContent;
+
+// Set to true to restore unfinished resources; adding a link also makes an item visible.
+const showUnfinishedResources = false;
+
+// Empty links are explicitly rendered as "Link coming soon" on the Resources page.
+export const visibleResources = siteContent.resources
+  .map((resource) => ({
+    ...resource,
+    items: resource.items.filter((item) => showUnfinishedResources || Boolean(item.link))
+  }))
+  .filter((resource) => resource.items.length > 0);
